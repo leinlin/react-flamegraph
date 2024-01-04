@@ -9,14 +9,20 @@ leveraging the power of flexbox the implementation is trivial.
 
 Signature for the props to pass to the component:
 
-    type Stack = 
-    {
+     stack = 
+    [
       {
         name : string
         value: number,
         [ stack: ObjectWithValues( Stack ) ]
-      }
-    }
+      },
+      {
+        name : string
+        value: number,
+        [ stack: ObjectWithValues( Stack ) ]
+      },
+      ...
+    ]
 
 
 ![](./graph.jpg)
