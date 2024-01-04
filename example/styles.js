@@ -6,19 +6,18 @@ const styles = {
     justifyContent: "center",
     minHeight: "100%",
     paddingBottom: 40,
-    flexDirection: "column-reverse",
-    fontSize: 9
+    flexDirection: "column",
+    fontSize: 9,
   },
   wrapItem: {
-    flexDirection: "column-reverse",
+    flexDirection: "column",
     display: "flex",
-    flex: 0,
-    transition: "flex-grow .3s"
+    transition: "flex-grow .3s",
   },
   wrapStack: {
     display: "flex",
     flexDirection: "row",
-    justifyContent: "space-around"
+    justifyContent: "space-around",
   },
   item: {
     textAlign: "center",
@@ -27,11 +26,11 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     height: 35,
-    border: `1px solid #aaa`
+    border: `1px solid #aaa`,
   },
   innerItem: {
-    wordBreak: "break-all"
-  }
+    wordBreak: "break-all",
+  },
 };
 
 export default styles;

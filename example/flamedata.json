@@ -2,16 +2,16 @@
   "flameData": {
     "development/design skills": {
       "value": 100,
-        "stack": {
+      "stack": {
         "development": {
           "value": 70,
-            "stack": {
+          "stack": {
             "server": {
               "value": 24,
-                "stack": {
+              "stack": {
                 "lamp": {
                   "value": 35,
-                    "stack": {
+                  "stack": {
                     "wp": {
                       "value": 30
                     },
@@ -25,7 +25,7 @@
                 },
                 "nodejs": {
                   "value": 30,
-                    "stack": {
+                  "stack": {
                     "express": {
                       "value": 50
                     },
@@ -38,13 +38,13 @@
             },
             "client": {
               "value": 50,
-                "stack": {
+              "stack": {
                 "vanilla": {
                   "value": 30,
-                    "stack": {
+                  "stack": {
                     "animations": {
                       "value": 90,
-                        "stack": {
+                      "stack": {
                         "canvas/webgl": {
                           "value": 20
                         },
@@ -66,7 +66,7 @@
                 },
                 "react": {
                   "value": 20,
-                    "stack": {
+                  "stack": {
                     "redux": {
                       "value": 20
                     },
@@ -85,10 +85,10 @@
             },
             "local-script": {
               "value": 20,
-                "stack": {
+              "stack": {
                 "nodejs": {
                   "value": 50,
-                    "stack": {
+                  "stack": {
                     "vanilla/npm": {
                       "value": 20
                     },
@@ -115,7 +115,7 @@
         },
         "design": {
           "value": 20,
-            "stack": {
+          "stack": {
             "adobe": {
               "value": 30
             },
@@ -127,7 +127,7 @@
             },
             "embroidery-software": {
               "value": 20,
-                "stack": {
+              "stack": {
                 "amayaOs": {
                   "value": 30
                 },
@@ -138,7 +138,7 @@
             },
             "plotting-software": {
               "value": 10,
-                "stack": {
+              "stack": {
                 "autocad": {
                   "value": 5
                 },
