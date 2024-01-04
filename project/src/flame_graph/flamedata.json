@@ -1,0 +1,399 @@
+{
+  "flameData": {
+    "stack":
+    [
+      {
+        "name": "development/design skills",
+        "value": 100,
+        "stack": [
+          {
+            "name": "development",
+            "value": 70,
+            "stack": [
+              {
+                "name": "server",
+                "value": 24,
+                "stack": [
+                  {
+                    "name": "lamp",
+                    "value": 35,
+                    "stack": [
+                      {
+                        "name":"wp",
+                        "value": 30
+                      },
+                      {
+                        "name":"presta shop",
+                        "value": 15
+                      },
+                      {
+                        "name":"custom",
+                        "value": 20
+                      }
+                    ]
+                  },
+                  {
+                    "name":"nodejs",
+                    "value": 30,
+                    "stack": [
+                      {
+                        "name":"express",
+                        "value": 50
+                      },
+                      {
+                        "name":"http/2",
+                        "value": 10
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "client",
+                "value": 50,
+                "stack": [
+                  {
+                    "name": "vanilla",
+                    "value": 30,
+                    "stack": [
+                      {
+                        "name":"animations",
+                        "value": 90,
+                        "stack": [
+                          {
+                            "name":"canvas/webgl",
+                            "value": 20
+                          },
+                          {
+                            "name":"svg",
+                            "value": 20
+                          },
+                          {
+                            "name":"dom",
+                            "value": 30
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name":"jquery",
+                    "value": 5
+                  },
+                  {
+                    "name":"angular",
+                    "value": 5
+                  },
+                  {
+                    "name":"react",
+                    "value": 20,
+                    "stack": [
+                      {
+                        "name":"redux",
+                        "value": 20
+                      },
+                      {
+                        "name":"redux-form",
+                        "value": 10
+                      },
+                      {
+                        "name":"recompose",
+                        "value": 10
+                      },
+                      {
+                        "name":"mui",
+                        "value": 20
+                      }
+                    ]
+                  }
+            ]
+              },
+              {
+                "name": "database",
+                "value": 20,
+                "stack": [
+                  {
+                    "name":"nodejs",
+                    "value": 50,
+                    "stack": [
+                      {
+                        "name":"vanilla/npm",
+                        "value": 20
+                      },
+                      {
+                        "name":"browserify",
+                        "value": 10
+                      },
+                      {
+                        "name":"gulp",
+                        "value": 10
+                      },
+                      {
+                        "name":"webpack",
+                        "value": 20
+                      },
+                      {
+                        "name":"rollup",
+                        "value": 15
+                      }
+                    ]
+                  },
+                  {
+                    "name":"bash",
+                    "value": 20
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "design",
+            "value": 20,
+            "stack": [
+              {
+                "name":"adobe",
+                "value": 30
+              },
+              {
+                "name":"sketch",
+                "value": 10
+              },
+              {
+                "name":"corel",
+                "value": 20
+              },
+              {
+                "name":"embroidery-software",
+                "value": 20,
+                "stack": [
+                  {
+                    "name":"amayaOs",
+                    "value": 30
+                  },
+                  {
+                    "name":"wilcom",
+                    "value": 50
+                  }
+                ]
+              },
+              {
+                "name":"plotting-software",
+                "value": 10,
+                "stack": [
+                  {
+                    "name":"autocad",
+                    "value": 5
+                  },
+                  {
+                    "name":"blender",
+                    "value": 20
+                  },
+                  {
+                    "name":"rhino",
+                    "value": 11
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "development/design skills",
+        "value": 100,
+        "stack": [
+          {
+            "name": "development",
+            "value": 70,
+            "stack": [
+              {
+                "name": "server",
+                "value": 24,
+                "stack": [
+                  {
+                    "name": "lamp",
+                    "value": 35,
+                    "stack": [
+                      {
+                        "name":"wp",
+                        "value": 30
+                      },
+                      {
+                        "name":"presta shop",
+                        "value": 15
+                      },
+                      {
+                        "name":"custom",
+                        "value": 20
+                      }
+                    ]
+                  },
+                  {
+                    "name":"nodejs",
+                    "value": 30,
+                    "stack": [
+                      {
+                        "name":"express",
+                        "value": 50
+                      },
+                      {
+                        "name":"http/2",
+                        "value": 10
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "client",
+                "value": 50,
+                "stack": [
+                  {
+                    "name": "vanilla",
+                    "value": 30,
+                    "stack": [
+                      {
+                        "name":"animations",
+                        "value": 90,
+                        "stack": [
+                          {
+                            "name":"canvas/webgl",
+                            "value": 20
+                          },
+                          {
+                            "name":"svg",
+                            "value": 20
+                          },
+                          {
+                            "name":"dom",
+                            "value": 30
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name":"jquery",
+                    "value": 5
+                  },
+                  {
+                    "name":"angular",
+                    "value": 5
+                  },
+                  {
+                    "name":"react",
+                    "value": 20,
+                    "stack": [
+                      {
+                        "name":"redux",
+                        "value": 20
+                      },
+                      {
+                        "name":"redux-form",
+                        "value": 10
+                      },
+                      {
+                        "name":"recompose",
+                        "value": 10
+                      },
+                      {
+                        "name":"mui",
+                        "value": 20
+                      }
+                    ]
+                  }
+            ]
+              },
+              {
+                "name": "database",
+                "value": 20,
+                "stack": [
+                  {
+                    "name":"nodejs",
+                    "value": 50,
+                    "stack": [
+                      {
+                        "name":"vanilla/npm",
+                        "value": 20
+                      },
+                      {
+                        "name":"browserify",
+                        "value": 10
+                      },
+                      {
+                        "name":"gulp",
+                        "value": 10
+                      },
+                      {
+                        "name":"webpack",
+                        "value": 20
+                      },
+                      {
+                        "name":"rollup",
+                        "value": 15
+                      }
+                    ]
+                  },
+                  {
+                    "name":"bash",
+                    "value": 20
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "design",
+            "value": 20,
+            "stack": [
+              {
+                "name":"adobe",
+                "value": 30
+              },
+              {
+                "name":"sketch",
+                "value": 10
+              },
+              {
+                "name":"corel",
+                "value": 20
+              },
+              {
+                "name":"embroidery-software",
+                "value": 20,
+                "stack": [
+                  {
+                    "name":"amayaOs",
+                    "value": 30
+                  },
+                  {
+                    "name":"wilcom",
+                    "value": 50
+                  }
+                ]
+              },
+              {
+                "name":"plotting-software",
+                "value": 10,
+                "stack": [
+                  {
+                    "name":"autocad",
+                    "value": 5
+                  },
+                  {
+                    "name":"blender",
+                    "value": 20
+                  },
+                  {
+                    "name":"rhino",
+                    "value": 11
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

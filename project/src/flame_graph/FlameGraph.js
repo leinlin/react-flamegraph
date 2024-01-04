@@ -1,37 +1,23 @@
 import React, { Component } from "react";
-import { withProps } from "recompose";
 import styles from "./styles";
 
 class FlameGraphNode extends Component {
   constructor() {
     super();
-    this.state = {
-      hover: false,
-    };
   }
 
-  hoverHandle(entering) {
-    return (e) => {
-      if (entering) {
-        this.setState({ hover: true });
-        return;
-      }
-      this.setState({ hover: false });
-    };
-  }
+
   render() {
     const {
       name,
       stack,
       basis = 100,
-      index = 0,
       level = 0,
       scale = 1,
     } = this.props;
     const borderBottomWidth = level ? 0 : "1px";
     return (
       <div
-        key={index}
         style={{
           flexBasis: `${basis * scale}%`,
           width: `${basis * scale}%`,
@@ -45,8 +31,6 @@ class FlameGraphNode extends Component {
             borderBottomWidth,
             background: level % 2 ? "#836" : "#3a3",
           }}
-          onMouseEnter={this.hoverHandle(true)}
-          onMouseLeave={this.hoverHandle()}
         >
           <p type="caption" style={styles.innerItem} component="p">
             {name}
@@ -56,13 +40,12 @@ class FlameGraphNode extends Component {
           // we stop recursion in case there's no stack
           stack ? (
             <div style={styles.wrapStack}>
-              {Object.keys(stack).map((k, i) => (
+              {stack.map(item => (
                 <FlameGraphNode
                   {...{
-                    name: k,
-                    stack: stack[k].stack,
-                    basis: stack[k].value * scale,
-                    key: i,
+                    name: item.name,
+                    stack: item.stack,
+                    basis: item.value * scale,
                     level: level + 1,
                   }}
                 />
@@ -84,31 +67,38 @@ class FlameGraph extends Component {
   }
 
   divWhell(e) {
-    if (e.deltaY < 0) {
-      e.preventDefault();
-      console.log("up");
-    } else {
-      e.preventDefault();
-      console.log("down");
-    }
-    this.setState({ scale: Math.max(this.state.scale - e.deltaY / 800, 1) });
+    this.setState({ scale: Math.max(this.state.scale - e.deltaY / 100, 1) });
     console.log(this.state.scale);
   }
 
   render() {
     const { flameData } = this.props;
-    const k = Object.keys(flameData)[0];
+    const stack = flameData.stack;
     return (
-      <div style={styles.root} onWheel={(e) => this.divWhell(e)}>
-        <FlameGraphNode
-          {...{
-            name: k,
-            stack: flameData[k].stack,
-            basis: flameData[k].value,
-            scale: this.state.scale,
+        <div
+          style={{
+            flexBasis: `${100 * this.state.scale}%`,
+            width: `${100 * this.state.scale}%`,
+            flexGrow: 1,
+            ...styles.wrapItem,
           }}
-        />
-      </div>
+          onWheel={(e) => {this.divWhell(e)}}>
+          <div style={styles.wrapStack}>
+            {
+              stack.map(item => (
+                <FlameGraphNode
+                  {...{
+                    name: item.name,
+                    stack: item.stack,
+                    basis: item.value * this.state.scale,
+                    scale: this.state.scale,
+                  }}
+                />
+              ))
+
+            }
+          </div>
+          </div>
     );
   }
 }
